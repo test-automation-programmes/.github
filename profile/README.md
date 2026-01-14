@@ -179,7 +179,7 @@ Important
 
 ## ⬇️ How to Download
 
-Step 1 Install required software  
+# Step 1 Install required software  
 Ensure the following are installed
 - 🐍 Python (recommended 3.9 or higher)
 - 🎭 Playwright (required for browser automation)
@@ -189,8 +189,9 @@ Ensure the following are installed
 
 ---
 
-Step 2 Clone repositories
+# Step 2 Clone repositories
 
+```bash
 git clone https://github.com/test-automation-programmes/dashboard.git
 git clone https://github.com/test-automation-programmes/main-files.git 
 git clone https://github.com/test-automation-programmes/tap-uploader.git
@@ -207,7 +208,7 @@ Clone all repositories into the same parent directory.
 
 ## ⚙️ How to Set Up on a Computer
 
-1️⃣ Recommended folder structure
+# 1️⃣ Recommended folder structure
 
     automation-root/
     ├── dashboard/
@@ -224,7 +225,7 @@ Clone all repositories into the same parent directory.
 
 ---
 
-2️⃣ Environment variables
+# 2️⃣ Environment variables
 
 Some tools require credentials
 
@@ -235,7 +236,7 @@ Set these before starting the dashboard.
 
 ---
 
-3️⃣ Start working
+# 3️⃣ Start working
 - ▶️ Open the dashboard
 - 🎯 Choose a tool
 - ▶️ Click Run
