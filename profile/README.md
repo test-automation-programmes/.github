@@ -42,20 +42,20 @@ How to use the executable
 
 Required folder structure example
 
-automation-root/
-├── dashboard/
-│   ├── Dashboard.exe
-│   └── dashboard_icon.ico
-├── main-files/
-├── apply-license/
-├── band-locker/
-├── create-test-results-excel-file/
-├── flash-helper/
-├── hota-request-message/
-├── install-aresrt/
-├── fieldtest/
-├── hlt/
-└── tap-uploader/
+    automation-root/
+    ├── dashboard/
+    │   ├── Dashboard.exe
+    │   └── dashboard_icon.ico
+    ├── main-files/
+    ├── apply-license/
+    ├── band-locker/
+    ├── create-test-results-excel-file/
+    ├── flash-helper/
+    ├── hota-request-message/
+    ├── install-aresrt/
+    ├── fieldtest/
+    ├── hlt/
+    └── tap-uploader/
 
 Important notes
 - ❌ If Dashboard.exe is moved out of the dashboard folder, tools will not be detected
@@ -179,7 +179,7 @@ Important
 
 ## ⬇️ How to Download
 
-# Step 1 Install required software  
+### Step 1 Install required software  
 Ensure the following are installed
 - 🐍 Python (recommended 3.9 or higher)
 - 🎭 Playwright (required for browser automation)
@@ -189,7 +189,7 @@ Ensure the following are installed
 
 ---
 
-# Step 2 Clone repositories
+### Step 2 Clone repositories
 
 ```bash
 git clone https://github.com/test-automation-programmes/dashboard.git
@@ -202,13 +202,14 @@ git clone https://github.com/test-automation-programmes/create-test-results-exce
 git clone https://github.com/test-automation-programmes/band-locker.git
 git clone https://github.com/test-automation-programmes/apply-license.git
 
+```
 Clone all repositories into the same parent directory.
 
 ---
 
 ## ⚙️ How to Set Up on a Computer
 
-# 1️⃣ Recommended folder structure
+### 1️⃣ Recommended folder structure
 
     automation-root/
     ├── dashboard/
@@ -225,7 +226,7 @@ Clone all repositories into the same parent directory.
 
 ---
 
-# 2️⃣ Environment variables
+### 2️⃣ Environment variables
 
 Some tools require credentials
 
@@ -236,7 +237,7 @@ Set these before starting the dashboard.
 
 ---
 
-# 3️⃣ Start working
+### 3️⃣ Start working
 - ▶️ Open the dashboard
 - 🎯 Choose a tool
 - ▶️ Click Run
@@ -244,7 +245,7 @@ Set these before starting the dashboard.
 
 ---
 
-## ✅ Usage Guidelines
+# ✅ Usage Guidelines
 
 - ✅ Always use the dashboard to open tools
 - 🚫 Do not rename shared Excel files
