@@ -209,18 +209,18 @@ Clone all repositories into the same parent directory.
 
 1️⃣ Recommended folder structure
 
-automation-root/
-├── dashboard/
-├── main-files/
-├── apply-license/
-├── band-locker/
-├── create-test-results-excel-file/
-├── flash-helper/
-├── hota-request-message/
-├── install-aresrt/
-├── fieldtest/
-├── hlt/
-└── tap-uploader/
+    automation-root/
+    ├── dashboard/
+    ├── main-files/
+    ├── apply-license/
+    ├── band-locker/
+    ├── create-test-results-excel-file/
+    ├── flash-helper/
+    ├── hota-request-message/
+    ├── install-aresrt/
+    ├── fieldtest/
+    ├── hlt/
+    └── tap-uploader/
 
 ---
 
