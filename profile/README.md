@@ -182,6 +182,7 @@ Important
 Step 1 Install required software  
 Ensure the following are installed
 - 🐍 Python (recommended 3.9 or higher)
+- 🎭 Playwright (required for browser automation)
 - 📊 Microsoft Excel
 - 🌐 Microsoft Edge
 - 🔧 Git
@@ -190,9 +191,15 @@ Ensure the following are installed
 
 Step 2 Clone repositories
 
-git clone https://github.com/<organization-name>/dashboard.git  
-git clone https://github.com/<organization-name>/main-files.git  
-git clone https://github.com/<organization-name>/<tool-repositories>.git  
+git clone https://github.com/test-automation-programmes/dashboard.git
+git clone https://github.com/test-automation-programmes/main-files.git 
+git clone https://github.com/test-automation-programmes/tap-uploader.git
+git clone https://github.com/test-automation-programmes/install-aresrt-fieldtest-hlt.git
+git clone https://github.com/test-automation-programmes/hota-request-message.git
+git clone https://github.com/test-automation-programmes/flash-helper.git
+git clone https://github.com/test-automation-programmes/create-test-results-excel-file.git
+git clone https://github.com/test-automation-programmes/band-locker.git
+git clone https://github.com/test-automation-programmes/apply-license.git
 
 Clone all repositories into the same parent directory.
 
