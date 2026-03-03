@@ -18,7 +18,7 @@ What it does
 - 🚫 Removes the need for command-line execution
 
 Important
-- ✅ Always start tools from the dashboard
+- ✅ **Always start tools from the dashboard**
 - ⚠️ Tools should not be launched directly unless for development
 
 ---
@@ -55,12 +55,13 @@ Required folder structure example
     ├── install-aresrt/
     ├── fieldtest/
     ├── hlt/
+    ├── log-puller/
     └── tap-uploader/
 
 Important notes
 - ❌ If Dashboard.exe is moved out of the dashboard folder, tools will not be detected
 - ⚠️ The message "No scripts found" indicates an incorrect folder structure
-- ✅ Tools should always be launched from the dashboard executable
+- ✅ **Tools should always be launched from the dashboard executable**
 
 ---
 
@@ -151,6 +152,18 @@ Opened from dashboard
 
 ---
 
+### 8️⃣ Log Puller
+
+What it does
+- 📥 **Automatically extracts** system logs, FieldTest logs, and screen recordings from connected devices
+- 🧹 **Cleans up** extracted files from the device's SD card to free up storage space
+- 🗜️ **Compresses** all gathered data into a neatly named ZIP file locally for easy sharing
+
+Opened from dashboard
+- 🖱️ Click Log Puller
+
+---
+
 ## 📂 Shared Data – Main Files
 
 Main files is a shared data repository, not a tool.
@@ -162,7 +175,7 @@ Purpose
 
 Important
 - 🔄 Used automatically by tools
-- ⚠️ Should not be modified without validation
+- ⚠️ **Should not be modified without validation**
 
 ---
 
@@ -173,7 +186,7 @@ Important
 3. 🖱️ Click the corresponding button
 4. 📌 Follow on-screen instructions if any
 
-✅ No manual script execution is required
+✅ **No manual script execution is required**
 
 ---
 
@@ -201,54 +214,4 @@ git clone https://github.com/test-automation-programmes/flash-helper.git
 git clone https://github.com/test-automation-programmes/create-test-results-excel-file.git
 git clone https://github.com/test-automation-programmes/band-locker.git
 git clone https://github.com/test-automation-programmes/apply-license.git
-
-```
-Clone all repositories into the same parent directory.
-
----
-
-## ⚙️ How to Set Up on a Computer
-
-### 1️⃣ Recommended folder structure
-
-    automation-root/
-    ├── dashboard/
-    ├── main-files/
-    ├── apply-license/
-    ├── band-locker/
-    ├── create-test-results-excel-file/
-    ├── flash-helper/
-    ├── hota-request-message/
-    ├── install-aresrt/
-    ├── fieldtest/
-    ├── hlt/
-    └── tap-uploader/
-
----
-
-### 2️⃣ Environment variables
-
-Some tools require credentials
-
-LOGIN_USERNAME  
-LOGIN_PASSWORD  
-
-Set these before starting the dashboard.
-
----
-
-### 3️⃣ Start working
-- ▶️ Open the dashboard
-- 🎯 Choose a tool
-- ▶️ Click Run
-- ✅ Complete the task
-
----
-
-# ✅ Usage Guidelines
-
-- ✅ Always use the dashboard to open tools
-- 🚫 Do not rename shared Excel files
-- 🚫 Do not change Excel column names
-- ⚠️ Do not open Excel files while tools are running
-- 🔄 Keep repositories updated
+git clone https://github.com/test-automation-programmes/log-puller.git
